@@ -1,0 +1,113 @@
+body {
+	background: #DCDCDC;
+	font-family: Rockwell Nova Light, Calibri, Sans-Serif;
+}
+
+h1 {
+	text-align: center;
+	font-style: bold;
+	font-size: 28px;
+
+}
+
+.option {
+	background: #B0C4DE;
+	position: relative;
+	height: auto;
+	margin: auto;
+	margin-bottom: 15px;
+	border: 3px solid black;
+	padding: 5px;
+	padding-bottom: 30px;
+}
+
+.foodname {
+	font-size: 16px;
+	border: 2px solid black;
+	border-top: 0;
+	border-right: 0;
+	padding: 5px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	width: 180px;
+	text-align: center;
+}
+
+.description {
+	position: relative;
+	margin: 7px;
+	top: 25px;
+	font-size: 15px;
+}
+
+#chicken {
+	background: #FFD700;
+}
+
+#lamb {
+	background: #800000;
+	color: white;
+}
+
+#veg {
+	background: #800080;
+	color: white;
+}
+
+@media (max-width: 767px) {
+	
+	.option {
+		width: 80%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.option {
+		width: 38%;
+	}
+
+	#twotop {
+		height: auto;
+	}
+
+	#masala {
+		float: left;
+		margin-left: 9%;
+		height: 100px;
+	}
+
+	#vindaloo {
+		float: right;
+		margin-right: 9%;
+		height: 100px;
+	}
+
+	#biryani {
+		width: 80%;
+		clear: both;
+	}
+}
+
+@media (min-width: 992px) {
+	
+	.option{
+		width: 30%;
+		margin-right: 10px;
+		height: 100px;
+	}
+
+	#masala {
+		float: left;
+	}
+
+	#vindaloo {
+		float: left;
+	}
+
+	#biryani {
+		float: left;
+	}
+
+}
