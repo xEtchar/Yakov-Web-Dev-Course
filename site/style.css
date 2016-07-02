@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background: #DCDCDC;
 	font-family: Rockwell Nova Light, Calibri, Sans-Serif;
@@ -58,15 +62,12 @@ h1 {
 @media (max-width: 767px) {
 	
 	.option {
-		width: 80%;
+		width: 90%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-	.option {
-		width: 38%;
-	}
 
 	#twotop {
 		height: auto;
@@ -74,28 +75,35 @@ h1 {
 
 	#masala {
 		float: left;
-		margin-left: 9%;
-		height: 100px;
+		margin-left: 0;
+		height: 140px;
+		width: 49.4%;
 	}
 
 	#vindaloo {
 		float: right;
-		margin-right: 9%;
-		height: 100px;
+		margin-right: 0;
+		height: 140px;
+		width: 49.4%;
 	}
 
 	#biryani {
-		width: 80%;
+		width: 90%;
 		clear: both;
+	}
+
+	#container {
+		width: 90%;
+		margin: auto;
 	}
 }
 
 @media (min-width: 992px) {
 	
 	.option{
-		width: 30%;
+		width: 32.575%;
 		margin-right: 10px;
-		height: 100px;
+		height: 140px;
 	}
 
 	#masala {
@@ -108,6 +116,14 @@ h1 {
 
 	#biryani {
 		float: left;
+		margin-right: 0;
+	}
+
+	#everything {
+		width: 90%;
+		margin: auto;
+		padding: 0;
+
 	}
 
 }
